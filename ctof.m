@@ -13,7 +13,7 @@ function y = ctof( v )
 [nx,ny] = size( v );
 M = nx-1;
 vm = v; 
-Mym = 2*M; ym = zeros(Mym+1);
+%Mym = 2*M; ym = zeros(Mym+1);
 
 % ym center points 
 
